@@ -1,0 +1,310 @@
+.tblArea {
+	
+}
+.tblArea table {
+	width: 100%;
+}
+.tblArea table {
+	border-top-color: rgb(51, 51, 51); border-top-width: 2px; border-top-style: solid;
+}
+.tblArea thead th {
+	background: rgb(245, 245, 245); padding: 13px 0px 12px; text-align: center; border-bottom-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.tblArea thead tr:first-child > th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.tblArea thead th.ths {
+	color: rgb(51, 51, 51); border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid;
+}
+.tblArea tbody td {
+	padding: 17px 20px 16px; border-bottom-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.tblArea tbody th {
+	padding: 17px 20px 16px; text-align: center; border-bottom-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.tblArea tbody th.nor {
+	font-family: "NanumSquareR"; font-weight: normal;
+}
+.tblArea tbody .th {
+	background: rgb(251, 251, 251);
+}
+.tblArea tbody tr td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.tblArea tbody tr th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.tblArea tbody tr th {
+	border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid;
+}
+.tblArea.row tbody th {
+	background: rgb(245, 245, 245); text-align: left; padding-right: 35px; padding-left: 35px;
+}
+.tblArea.row tbody td {
+	
+}
+.tblArea.center tbody th {
+	text-align: center;
+}
+.tblArea.center tbody td {
+	text-align: center;
+}
+.ui-w .tblArea.scroll {
+	-ms-overflow-x: auto;
+}
+.ui-m .tblArea table {
+	border-top-color: rgb(51, 51, 51); border-top-width: 1px; border-top-style: solid;
+}
+.ui-m .tblArea thead th {
+	padding-right: 5px; padding-left: 5px;
+}
+.ui-m .tblArea tbody td {
+	padding-right: 15px; padding-left: 15px; -ms-word-break: keep-all;
+}
+.ui-m .tblArea tbody th {
+	padding-right: 15px; padding-left: 15px; -ms-word-break: keep-all;
+}
+.ui-m .tblArea.scroll {
+	margin-right: -15px; -ms-overflow-x: auto;
+}
+.ui-m .tblArea.scroll table {
+	width: 800px;
+}
+.ui-m .tblArea.row tbody th {
+	padding: 0px 15px; width: 30% !important;
+}
+
+.reportList {
+	font-family: "맑은 고딕", "Malgun Gothic", "Sans-serif";
+}
+.cardList {
+	font-family: "맑은 고딕", "Malgun Gothic", "Sans-serif";
+}
+.brdView * {
+	font-family: "맑은 고딕", "Malgun Gothic", "Sans-serif" !important;
+}
+
+.reportList * {
+	font-family: "맑은 고딕", "Malgun Gothic", "Sans-serif" !important;
+}
+.cardList * {
+	font-family: "맑은 고딕", "Malgun Gothic", "Sans-serif" !important;
+}
+.reportList {
+	background: rgb(255, 255, 255);
+}
+.reportList a {
+	border: 1px solid rgb(221, 221, 221); border-image: none; display: block; position: relative;
+}
+.reportList b {
+	display: block;
+}
+.reportList span {
+	display: block;
+}
+.reportList .desc {
+	color: rgb(102, 102, 102); overflow: hidden; white-space: normal; -ms-text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 6;
+}
+.reportList .info {
+	width: 100%; text-align: right; color: rgb(136, 136, 136); line-height: 18px; position: relative; min-height: 18px;
+}
+.reportList .info span {
+	display: inline-block;
+}
+.reportList .info .date {
+	left: 0px; position: absolute;
+}
+.reportList .info .file {
+	width: 20px; height: 18px; line-height: 0; overflow: hidden; font-size: 0px; margin-left: 5px; vertical-align: top;
+}
+.reportList a:hover {
+	background: rgb(52, 93, 148);
+}
+.reportList a:focus {
+	background: rgb(52, 93, 148);
+}
+
+.reportList a:hover b {
+	color: rgb(255, 255, 255);
+}
+.reportList a:hover span {
+	color: rgb(255, 255, 255);
+}
+.reportList a:focus b {
+	color: rgb(255, 255, 255);
+}
+.reportList a:focus span {
+	color: rgb(255, 255, 255);
+}
+
+.ui-w .reportList ul::after {
+	clear: both; display: block; content: "";
+}
+.ui-w .reportList li {
+	margin: 13px 0px 0px 13px; width: 268px; float: left;
+}
+.ui-w .reportList li:nth-child(3n+1) {
+	margin-left: 0px;
+}
+
+.ui-w .reportList a {
+	padding: 26px 25px 0px; height: 283px;
+}
+.ui-w .reportList a .top {
+	height: 55px; position: relative;
+}
+.ui-w .reportList a .top .title {
+	height: 55px; line-height: 26px; overflow: hidden; font-size: 18px; font-weight: bold; vertical-align: top; display: inline-block; white-space: normal; -ms-text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+}
+
+.ui-w .reportList .desc {
+	height: 120px; margin-top: 10px;
+}
+.ui-w .reportList .info {
+	padding: 0px 30px; left: 0px; bottom: 27px; position: absolute;
+}
+.ui-w .reportList .info .date {
+	left: 25px; top: 3px;
+}
+
+.ui-w .reportList .info .file {
+	background: url("/images/common/ico_file.png") no-repeat left top;
+}
+.ui-w .reportList a:hover .info .file {
+	background: url("/images/common/ico_file.png") no-repeat left bottom;
+}
+.ui-w .reportList a:focus .info .file {
+	background: url("/images/common/ico_file.png") no-repeat left bottom;
+}
+.ui-m .reportList {
+	
+}
+.ui-m .reportList ul {
+	margin-bottom: -15px;
+}
+.ui-m .reportList li {
+	padding-bottom: 15px;
+}
+.ui-m .reportList a {
+	padding: 26px 15px;
+}
+.ui-m .reportList .top::after {
+	clear: both; display: block; content: "";
+}
+.ui-m .reportList .title {
+	line-height: 21px; font-size: 15px; display: block;
+}
+
+.ui-m .reportList .desc {
+	line-height: 20px; margin-top: 8px; max-height: 120px;
+}
+.ui-m .reportList .info {
+	margin-top: 15px;
+}
+.ui-m .reportList .info .date {
+	top: 3px;
+}
+
+.ui-m .reportList .info .file {
+	background: url("/images/common/ico_file_m.png") no-repeat left top / 20px 36px;
+}
+.ui-m .reportList a:hover .info .file {
+	background: url("/images/common/ico_file_m.png") no-repeat left bottom / 20px 36px;
+}
+.ui-m .reportList a:focus .info .file {
+	background: url("/images/common/ico_file_m.png") no-repeat left bottom / 20px 36px;
+}
+
+.cardList ul::after {
+	clear: both; display: block; content: "";
+}
+.cardList ul {
+	background: rgb(255, 255, 255); display: block; position: relative;
+}
+.cardList ul li {
+	background: rgb(255, 255, 255); display: block; position: relative;
+}
+.cardList a {
+	background: rgb(255, 255, 255); display: block; position: relative;
+}
+.cardList a .thum {
+	background: rgb(0, 0, 0); text-align: center; overflow: hidden;
+}
+.cardList a .thum img {
+	width: 100%; height: 100%;
+}
+
+.cardList a .info .desc {
+	height: 2.8em; color: rgb(102, 102, 102); line-height: 1.4em; overflow: hidden; margin-top: 3px; display: block; white-space: normal; -ms-text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+}
+.cardList a .info .date {
+	color: rgb(51, 51, 51); padding-top: 10px; font-size: 14px; display: block;
+}
+
+.cardList a:focus::after {
+	border: 2px solid rgb(52, 93, 148); border-image: none; left: -1px; top: -1px; right: -1px; bottom: -1px; display: block; position: absolute; content: "";
+}
+.cardList a:hover::after {
+	border: 2px solid rgb(52, 93, 148); border-image: none; left: -1px; top: -1px; right: -1px; bottom: -1px; display: block; position: absolute; content: "";
+}
+.ui-m .cardList a:focus::after {
+	display: none;
+}
+.ui-m .cardList a:hover::after {
+	display: none;
+}
+.ui-w .cardList {
+	margin-top: -13px;
+}
+.ui-w .cardList li {
+	margin: 13px 0px 0px 13px; width: 268px; float: left;
+}
+.ui-w .cardList li:first-child {
+	margin-left: 0px;
+}
+.ui-w .cardList li:nth-child(3n+1) {
+	margin-left: 0px;
+}
+.ui-w .cardList a {
+	padding: 30px 25px 0px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.ui-w .cardList a .thum {
+	background: url("/images/common/bg_noimage.png") no-repeat center rgb(200, 204, 207); width: 100%; height: 135px; overflow: hidden; display: block; position: relative; min-height: 135px;
+}
+.ui-w .cardList a .info {
+	padding: 15px 0px 20px; height: 136px; display: block;
+}
+.ui-w .cardList a .info .title {
+	color: rgb(51, 51, 51); line-height: 22px; overflow: hidden; font-size: 18px; font-weight: bold; display: inline-block; white-space: nowrap; -ms-word-wrap: normal; -ms-text-overflow: ellipsis; max-width: 87%;
+}
+
+.ui-m .cardList {
+	margin: 0px -15px; text-align: left; border-bottom-color: rgb(192, 192, 192); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui-m .cardList li {
+	background: rgb(238, 238, 238); padding-top: 10px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.ui-m .cardList li:first-child {
+	border: 0px currentColor; border-image: none; padding-top: 0px;
+}
+.ui-m .cardList a .thum {
+	background: rgb(200, 204, 207); width: 100%; height: 62.5vw; text-align: center; overflow: hidden; display: block; position: relative;
+}
+.ui-m .cardList a .thum::after {
+	background: url("/images/common/bg_noimage.png") no-repeat center / 100%; margin: -4.86vw auto 0px; left: 0px; top: 50%; width: 10.41vw; height: 9.72vw; right: 0px; display: inline-block; position: absolute; content: "";
+}
+.ui-m .cardList a .thum img {
+	position: relative; z-index: 1;
+}
+.ui-m .cardList a .info {
+	padding: 20px 15px; height: auto; display: block;
+}
+.ui-m .cardList a .info .title {
+	color: rgb(51, 51, 51); line-height: 22px; font-size: 17px; font-weight: bold;
+}
+.ui-m .cardList a .info .desc {
+	margin-top: 10px;
+}
+.ui-m .cardList a:hover::after {
+	left: 0px; right: 0px; z-index: 1;
+}
